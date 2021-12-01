@@ -5,3 +5,10 @@
 ## Task flow 
 d.el.2021
 !123456!
+
+
+### Attributions
+Fancy coffee
+Chevanon Photography
+https://www.pexels.com/photo/person-performing-coffee-art-302899/
+https://www.pexels.com/@chevanon

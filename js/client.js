@@ -1,14 +1,14 @@
-const newsFun = async () => {
+const newCafe = async () => {
   const response = await fetch('/.netlify/functions/photo');
   const data = await response.json();
   // Sorting by Hashtags
-  const newsFigure = await data.find((item) => item.caption.includes('#news'));
-  console.log(newsFigure)
+  const newCoffee = await data.find((item) => item.caption.includes('#coffee'));
+  console.log(newCoffee)
   // Output to index
-  document.querySelector('.news').innerHTML = `
+  document.querySelector('.container').innerHTML = `
   <figure>
     <a href="${address}">
-      <img src="${newsFigure.url}" alt="" width="400">
+      <img src="${newCoffee.url}" alt="" width="400">
     </a>
     <figcaption><a href="${address}">${cap}</a></figcaption>
   </figure>
@@ -16,4 +16,4 @@ const newsFun = async () => {
 
   console.log(data);
 }
-newsFun()
+newCafe()
