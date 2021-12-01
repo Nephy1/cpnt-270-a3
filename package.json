@@ -1,0 +1,25 @@
+{
+  "name": "cpnt270-a3",
+  "version": "1.0.0",
+  "description": "- As a cafe owner, Id to post my instagram photos of my cafe and the fancy drinks to bring more regulars into my place.\r - There is a lot of competition in this market and I don't have the extra money for paid advertising. I had just opened this cafe in a less busy part of town and business was good for the first opening but slowly tapered off. My social media is growing slowly but data suggests my website is getting more traffic than my socials. By showing the welcoming vibes of the cafe and the neat drinks on my website, I believe I would get more regulars through my doors.\r ---\r ## Task flow \r d.el.2021\r !123456!",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nephy1/cpnt-270-a3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nephy1/cpnt-270-a3/issues"
+  },
+  "homepage": "https://github.com/Nephy1/cpnt-270-a3#readme"
+}
