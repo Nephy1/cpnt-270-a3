@@ -6,7 +6,7 @@ const newCafe = async () => {
   const newCoffee = await data.find((item) => item.caption.includes('#coffee'));
   console.log(newCoffee)
   // Older posts
-  let olderPost = newCoffee.data[1];
+  let olderPost = await data.filter((item) => item.caption.includes('#coffee'));
   // Output to index
   document.querySelector('.container').innerHTML = `
   <figure>
@@ -18,10 +18,10 @@ const newCafe = async () => {
   </figure>
   <figure>
     <h1> Older Posts! </h1>
-    <a href="${olderPost.url}">
-      <img src="${olderPost.url}" alt="" width="400">
+    <a href="${olderPost[1].url}">
+      <img src="${olderPost[1].url}" alt="" width="400">
     </a>
-    <figcaption>${olderPost.caption}</figcaption>
+    <figcaption>${olderPost[1].caption}</figcaption>
   </figure>
   `
 
