@@ -12,12 +12,10 @@ const newCafe = async () => {
     <a href="${newCoffee.url}">
       <img src="${newCoffee.url}" alt="" width="400">
     </a>
-    <figcaption><a href="${address}">${newCoffee.caption}</a></figcaption>
+    <figcaption>${newCoffee.caption}</figcaption>
   </figure>
   `
 
   console.log(data);
 }
 newCafe()
-// ${newCoffee.caption}
-// <a href="${address}">${cap}</a>
