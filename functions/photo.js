@@ -3,6 +3,7 @@ const axios = require('axios');
 require('dotenv').config();
 
 exports.handler = function instagram(event, context, callback) {
+  // DOING THIS TO HIDE OUR TOKEN AND ID BEHIND OUR .ENV
   const userId = process.env.ID;
   const token = process.env.TOKEN;
   const url = `https://graph.instagram.com/${userId}/media?fields=id,%20caption,link,media_url&access_token=${token}`;
