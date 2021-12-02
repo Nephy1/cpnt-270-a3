@@ -9,13 +9,15 @@ const newCafe = async () => {
   document.querySelector('.container').innerHTML = `
   <figure>
     <h1> Newest Post! </h1>
-    <a href="${newCoffee.caption}">
+    <a href="${newCoffee.url}">
       <img src="${newCoffee.url}" alt="" width="400">
     </a>
-    <figcaption>${newCoffee.caption}</figcaption>
+    <figcaption><a href="${address}">${cap}</a></figcaption>
   </figure>
   `
 
   console.log(data);
 }
 newCafe()
+// ${newCoffee.caption}
+// <a href="${address}">${cap}</a>
