@@ -1,4 +1,5 @@
 const newCafe = async () => {
+  // Fetch API
   const response = await fetch('/.netlify/functions/photo');
   const data = await response.json();
   // Sorting by Hashtags
@@ -7,10 +8,11 @@ const newCafe = async () => {
   // Output to index
   document.querySelector('.container').innerHTML = `
   <figure>
-    <a href="${address}">
+    <h1> Newest Post! </h1>
+    <a href="${newCoffee.caption}">
       <img src="${newCoffee.url}" alt="" width="400">
     </a>
-    <figcaption><a href="${address}">${cap}</a></figcaption>
+    <figcaption>${newCoffee.caption}</figcaption>
   </figure>
   `
 
