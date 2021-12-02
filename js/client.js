@@ -14,6 +14,13 @@ const newCafe = async () => {
     </a>
     <figcaption>${newCoffee.caption}</figcaption>
   </figure>
+  <figure>
+    <h1> Older Posts! </h1>
+    <a href="${newCoffee[1].url}">
+      <img src="${newCoffee[1].url}" alt="" width="400">
+    </a>
+    <figcaption>${newCoffee[1].caption}</figcaption>
+  </figure>
   `
 
   console.log(data);
