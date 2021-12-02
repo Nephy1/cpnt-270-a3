@@ -5,7 +5,7 @@
 ## Task flow 
 
 ### Attributions
-Fancy coffee
-Chevanon Photography
-https://www.pexels.com/photo/person-performing-coffee-art-302899/
-https://www.pexels.com/@chevanon
+- Tony's code
+  - 
+- David Ha
+  - Support / Debugging
