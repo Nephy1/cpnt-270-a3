@@ -18,10 +18,10 @@ const newCafe = async () => {
   </figure>
   <figure>
     <h1> Older Posts! </h1>
-    <a href="${olderPost[1].url}">
-      <img src="${olderPost[1].url}" alt="" width="400">
+    <a href="${olderPost[1, 2].url}">
+      <img src="${olderPost[1, 2].url}" alt="" width="400">
     </a>
-    <figcaption>${olderPost[1].caption}</figcaption>
+    <figcaption>${olderPost[1, 2].caption}</figcaption>
   </figure>
   `
 
