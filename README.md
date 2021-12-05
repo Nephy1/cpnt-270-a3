@@ -23,6 +23,11 @@
 - Set up .gitignore
   - .env added to .gitignore
 
+## API Documentation
+- https://developers.facebook.com/docs/instagram-basic-display-api
+- https://developers.facebook.com/docs/instagram-basic-display-api/getting-started
+- https://developers.facebook.com/docs/instagram-basic-display-api/overview#instagram-user-access-tokens  
+
 ### Attributions
 - Tony's in class code
   - https://github.com/sait-wbdv/hello-instagram-netlify
