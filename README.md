@@ -25,6 +25,7 @@
 
 ### Attributions
 - Tony's in class code
+  - https://github.com/sait-wbdv/hello-instagram-netlify
 - David Ha
   - Support / Debugging
 - Coffee Photo
