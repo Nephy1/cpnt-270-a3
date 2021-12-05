@@ -1,3 +1,8 @@
+# CPNT270-A3
+ - https://unruffled-jang-ba929f.netlify.app/.netlify/functions/photo
+ - https://unruffled-jang-ba929f.netlify.app
+ - https://github.com/Nephy1/cpnt-270-a3
+
 # User Story
 - As a cafe owner, Id to post my instagram photos of my cafe and the fancy drinks to bring more regulars into my place.
 ### Problem
