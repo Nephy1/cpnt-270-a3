@@ -1,9 +1,9 @@
-# CPNT270-A3
+# CPNT270-A3 - Devon Lipsius
  - https://unruffled-jang-ba929f.netlify.app/.netlify/functions/photo
  - https://unruffled-jang-ba929f.netlify.app
  - https://github.com/Nephy1/cpnt-270-a3
 
-# User Story
+## User Story
 - As a cafe owner, Id to post my instagram photos of my cafe and the fancy drinks to bring more regulars into my place.
 ### Problem
 - There is a lot of competition in this market and I don't have the extra money for paid advertising. I had just opened this cafe in a less busy part of town and business was good for the first opening but slowly tapered off. My social media is growing slowly but data suggests my website is getting more traffic than my socials. By showing the warm vibes of the cafe and the neat drinks on my website, I believe I would get more regulars through my doors.
